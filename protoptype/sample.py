@@ -9,3 +9,7 @@ def sub(c,d):
 def cube(d,e):
     cube = d**e
     return cube
+
+def Multiplication(d,e):
+    x = d *e
+    return x
