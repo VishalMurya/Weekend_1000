@@ -36,8 +36,9 @@ def read_query(query):
 
 
 
+if __name__ == '__main__':
 
-query = 'show tables;'
-print(query)
-df = read_query(query=query)
-print(df)
+      query = 'show tables;'
+      print(query)
+      df = read_query(query=query)
+      print(df)
