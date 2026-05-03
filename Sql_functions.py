@@ -1,4 +1,6 @@
 # import mysql.connector
+
+
 from mysql import connector
 from dotenv import load_dotenv
 import os
@@ -25,7 +27,7 @@ cursor = connection.cursor()
 
 def read_query(query):
     """Reading sql Queries . Only for SELECT Queries.
-      Return . pd.DATAFRAME"""
+       Return . pd.DATAFRAME"""
 
 
     cursor.execute(query)
@@ -35,3 +37,7 @@ def read_query(query):
 
 
 
+query = 'show tables;'
+print(query)
+df = read_query(query=query)
+print(df)
