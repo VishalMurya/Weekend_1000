@@ -6,3 +6,9 @@
 
 ![image](https://images.businessnewsdaily.com/app/uploads/2022/04/04073619/how-ecommerce-works.png)
 
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
